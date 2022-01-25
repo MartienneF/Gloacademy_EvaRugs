@@ -33,7 +33,7 @@ ul > li {
 
 .header__wrap {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -55,7 +55,7 @@ ul > li {
 .header__telephone-img,
 .header__maps-img,
 .header__inst-img {
-  margin-right: 1.5rem;
+  margin-right: 1.2rem;
 }
 
 .header__telephone,
@@ -71,11 +71,14 @@ ul > li {
 
 /* FOOTER */
 
+.footer{
+    position: relative;
+}
+
 .footer__wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
   padding: 17.2rem 12rem 8.4rem 12rem;
 }
 
