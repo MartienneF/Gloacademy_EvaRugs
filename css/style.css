@@ -42,8 +42,8 @@ h6 {
   padding-top: 2.3rem;
   padding-bottom: 2.6rem;
   color: #ffffff;
-  font-weight: 500;
   font-size: 1.5rem;
+  font-weight: 500;
   line-height: 63%;
 }
 
@@ -65,7 +65,7 @@ h6 {
 
 .header__inst-img {
   width: 3rem;
-  height: 2.8rem;
+  height: 3rem;
 }
 
 .header__telephone-img,
@@ -85,7 +85,7 @@ h6 {
 .header__telephone-img,
 .header__maps-img,
 .header__inst-img {
-  margin-right: 1.5rem;
+  margin-right: 1.2rem;
 }
 
 .header__inst span {
@@ -179,10 +179,9 @@ h6 {
   font-weight: 900;
   font-size: 2rem;
   line-height: 115%;
-  text-align: center;
   text-transform: uppercase;
-  padding: 1.5rem 3rem;
-  outline: none;
+  padding: 1.5rem 3.5rem;
+  border: none;
   color: #ffffff;
   cursor: pointer;
 }
