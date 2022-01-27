@@ -262,6 +262,11 @@ h6 {
   background: linear-gradient(94.31deg, rgba(212, 20, 90, 0.25) 0.96%, rgba(46, 49, 146, 0.25) 104.83%);
 }
 
+.review__wrapper {
+  padding-top: 7rem;
+  padding-bottom: 5rem;
+}
+
 .review__slide {
   display: flex;
   align-items: center;
@@ -274,11 +279,6 @@ h6 {
   border-radius: 0.9rem;
 }
 
-.review__wrapper {
-  padding-top: 7rem;
-  padding-bottom: 5rem;
-}
-
 .review__slide-photo {
   clip-path: polygon(50% 5%, 98% 31%, 98% 69%, 50% 96%, 1% 67%, 1% 33%);
   width: 10.5rem;
@@ -287,7 +287,7 @@ h6 {
 }
 
 .review__slide-text {
-  margin-bottom: 5rem;
+  /* margin-bottom: 5rem; */
   font-weight: 300;
   font-size: 1.8rem;
   line-height: 117%;
@@ -300,13 +300,15 @@ h6 {
   height: 0.2rem;
   width: 13rem;
   position: absolute;
-  top: 60%;
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: linear-gradient(90deg, rgba(185, 1, 96, 1) 0%, rgba(61, 91, 245, 1) 100%);
 }
 
 .review__slide-name {
+  position: absolute;
+  top: 80%;
   font-weight: 300;
   font-size: 1.3rem;
   line-height: 115%;
